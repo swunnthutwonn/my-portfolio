@@ -1,48 +1,14 @@
-/* General styles */
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
 }
 
-header {
-  background-color: #222;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
-section {
-  padding: 2rem;
-}
-
-footer {
-  background-color: #ddd;
-  text-align: center;
-  padding: 1rem;
-}
-
-/* Profile Image */
-img {
-  width: 150px;
-  border-radius: 50%;
-}
-
-/* Links */
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Flexbox layout for about section */
-.about-container {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  align-items: center;
+.contact-section {
+    background-color: #f1f1f1;
+    padding: 60px 0;
 }

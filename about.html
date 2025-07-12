@@ -4,30 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Swunn</title>
+
+    
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-        <nav>
-            <a href="index.html">🏠 Home</a>
-            <a href="about.html">📄 About</a>
-        </nav>
-    </header>
+    
+        <!-- Header Section -->
+        <header class="bg-dark text-white text-center py-4">
+            <h1>Swunn Thut Wonn</h1>
+            <p class="lead">Beginner Web Developer | CS50W Student</p>
+        </header>
 
-    <section class="about-container">
-        <div>
-            <h2>Who am I?</h2>
-            <p>
-                I’m Swunn, currently learning CS50W. This page describes more about my journey into programming and web development.
-            </p>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bo-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">🌐 Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="navitem"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="navitem"><a href="about.html" class="nav-link">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- About Me Section -->
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>I am learning web development throught CS50W...</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Passport Photo.jpg" alt="profile" class="img-fluid rounded">
+                </div>
+            </div>
         </div>
-        <img src="./Passport Photo.jpg" alt="my_photo">
-    </section>
 
     <footer>
         <p>📧 Contact me: <a href="mailto:your@email.com">Email</a></p>
     </footer>
-    
+
+
+    <!-- Bootstrap JS Bundle (optional for navbar, modals, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
